@@ -1,19 +1,18 @@
-from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.security import check_password_hash, generate_password_hash
 
 from App.ext import db
 from App.models import BaseModel
-from App.models.movie_user.model_constant import PERMISSION_NONE
 
-BLACK_USER = 1
-COMMON_USER = 2
-VIP_USER = 4
+PERMISSION_NONE = 0
+PERMISSION_COMMON = 2
 
-class MovieUser(BaseModel):
+
+class AdminUser(BaseModel):
 
     username = db.Column(db.String(32), unique=True)
     _password = db.Column(db.String(256))
-    phone = db.Column(db.String(32), unique=True)
     is_delete = db.Column(db.Boolean, default=False)
+    is_super = db.Column(db.Boolean, default=False)
     permission = db.Column(db.Boolean, default=PERMISSION_NONE)
 
     @property
@@ -28,9 +27,4 @@ class MovieUser(BaseModel):
         return check_password_hash(self._password, password_value)
 
     def check_permission(self, permission):
-
-        if BLACK_USER & self.permission == BLACK_USER:
-            return False
-
-        else:
-            return permission & self.permission == permission
+        return self.is_super or permission & self.permission == permission

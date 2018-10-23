@@ -1,3 +1,7 @@
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 def get_db_uri(dbinfo):
 
     engine = dbinfo.get("ENGINE")
@@ -100,3 +104,7 @@ envs = {
     "default": DevelopConfig
 }
 
+ADMINS = ["Zahir", "root"]
+
+FILE_PATH_PREFIX = "/static/uploads/icons"
+UPLOAD_DIR = os.path.join(BASE_DIR, "App/static/uploads/icons")

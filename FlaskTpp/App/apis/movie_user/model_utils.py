@@ -1,6 +1,7 @@
 from App.models.movie_user import MovieUser
 
 
+# 实现根据id, 手机号码, 用户名查找并返回用户
 def get_user(user_ident):
 
     if not user_ident:
