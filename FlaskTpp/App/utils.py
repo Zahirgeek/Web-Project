@@ -1,5 +1,7 @@
 import uuid
-
+'''
+根据登录用户类型返回唯一token
+'''
 MOVIE_USER = "movie_user"
 ADMIN_USER = "admin_user"
 CINEMA_USER = "cinema_user"

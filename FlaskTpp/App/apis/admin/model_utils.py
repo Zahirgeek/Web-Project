@@ -1,5 +1,3 @@
-
-
 # 实现根据id, 用户名查找并返回用户
 from App.models.admin.admin_user_model import AdminUser
 

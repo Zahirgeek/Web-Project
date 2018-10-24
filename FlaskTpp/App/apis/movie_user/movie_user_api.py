@@ -1,6 +1,4 @@
-import uuid
-
-from flask_restful import Resource, reqparse, abort, fields, marshal_with, marshal
+from flask_restful import Resource, reqparse, abort, fields, marshal
 
 from App.apis.api_contant import HTTP_CREATE_OK, USER_ACTION_REGISTER, USER_ACTION_LOGIN, HTTP_OK
 from App.apis.movie_user.model_utils import get_user
@@ -66,7 +64,7 @@ class MovieUsersResource(Resource):
             data = {
                 "status": HTTP_CREATE_OK,
                 "msg": "用户创建成功",
-                "data": marshal(movie_user, single_movie_user_fields),
+                "data": marshal(movie_user, movie_user_fields),
             }
 
             return data

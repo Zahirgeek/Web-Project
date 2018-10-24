@@ -2,6 +2,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
 def get_db_uri(dbinfo):
 
     engine = dbinfo.get("ENGINE")

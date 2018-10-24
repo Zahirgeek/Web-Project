@@ -115,79 +115,102 @@
     <session id="265061824">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="SCHEMA:GP1FlaskTpp" value="3" />
+          <entry key="cinema_user" value="4" />
           <entry key="city" value="1" />
           <entry key="json" value="2" />
           <entry key="letter" value="1" />
-          <entry key="md" value="6" />
-          <entry key="py" value="105" />
+          <entry key="md" value="7" />
+          <entry key="movie_user" value="1" />
+          <entry key="py" value="229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="2" />
+          <entry key="Database Element" value="7" />
           <entry key="JSON" value="2" />
-          <entry key="Markdown" value="6" />
-          <entry key="Python" value="105" />
+          <entry key="Markdown" value="7" />
+          <entry key="Python" value="229" />
+          <entry key="UML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1414" />
-          <entry key="py" value="5086" />
+          <entry key="dummy" value="4" />
+          <entry key="md" value="1508" />
+          <entry key="py" value="13803" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1414" />
-          <entry key="Python" value="5086" />
+          <entry key="Markdown" value="1508" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="13803" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/code/data/InsertCities.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/apis/movie_user/movie_hall_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+            <state relative-caret-position="336">
+              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1540300778617" expanded="true" signature="56:61" ph="..." />
-                <marker date="1540300778617" expanded="true" signature="287:1433" ph="..." />
+                <element signature="e#0#61#0" expanded="true" />
+                <marker date="1540370381153" expanded="true" signature="822:823" ph="..." />
+                <marker date="1540370381153" expanded="true" signature="1747:2044" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="144">
-                <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/apis/movie_user/movie_order_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <folding>
+                <element signature="e#5#20#0" expanded="true" />
+                <marker date="1540389806673" expanded="true" signature="680:681" ph="..." />
+                <marker date="1540389806673" expanded="true" signature="680:706" ph="..." />
+                <marker date="1540389806673" expanded="true" signature="1426:1427" ph="..." />
+                <marker date="1540389806673" expanded="true" signature="1426:1432" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/models/common/city_model.py">
+        <entry file="file://$PROJECT_DIR$/App/models/movie_user/movie_order_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="264">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <marker date="1540389806689" expanded="true" signature="316:321" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/models/cinema_admin/cinema_hall_movie_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1540275897844" expanded="true" signature="81:133" ph="..." />
-                <marker date="1540275897844" expanded="true" signature="155:156" ph="..." />
-                <marker date="1540275897844" expanded="true" signature="155:161" ph="..." />
+                <marker date="1540366799402" expanded="true" signature="192:193" ph="..." />
+                <marker date="1540366799402" expanded="true" signature="192:198" ph="..." />
               </folding>
             </state>
           </provider>
@@ -203,47 +226,65 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>HallMovie</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/App/views.py" />
-        <option value="$PROJECT_DIR$/App/apis/movie_admin/__init__.py" />
-        <option value="$PROJECT_DIR$/App/apis/movie_user/hello_api.py" />
-        <option value="$PROJECT_DIR$/App/__init__.py" />
-        <option value="$PROJECT_DIR$/App/models/movie_user/__init__.py" />
-        <option value="$PROJECT_DIR$/App/ext.py" />
-        <option value="$PROJECT_DIR$/App/models/movie_admin/__init__.py" />
         <option value="$PROJECT_DIR$/App/models/movie_user/model_constant.py" />
         <option value="$PROJECT_DIR$/App/apis/movie_user/model_utils.py" />
         <option value="$PROJECT_DIR$/App/apis/api_contant.py" />
         <option value="$PROJECT_DIR$/App/models/__init__.py" />
         <option value="$PROJECT_DIR$/App/apis/movie_user/model_utils.py" />
-        <option value="$PROJECT_DIR$/App/models/movie_user/movie_user_model.py" />
         <option value="$PROJECT_DIR$/App/apis/__init__.py" />
         <option value="$PROJECT_DIR$/doc/code/data/cities.json" />
         <option value="$PROJECT_DIR$/App/models/common/city_model.py" />
         <option value="$PROJECT_DIR$/App/models/admin/admin_user_model.py" />
-        <option value="$PROJECT_DIR$/App/apis/admin/__init__.py" />
-        <option value="$PROJECT_DIR$/App/utils.py" />
         <option value="$PROJECT_DIR$/App/models/common/movie_model.py" />
         <option value="$PROJECT_DIR$/App/apis/movie_user/utils.py" />
         <option value="$PROJECT_DIR$/App/apis/admin/utils.py" />
-        <option value="$PROJECT_DIR$/App/settings.py" />
         <option value="$PROJECT_DIR$/App/apis/common/utils.py" />
         <option value="$PROJECT_DIR$/App/models/common/__init__.py" />
         <option value="$PROJECT_DIR$/App/models/admin/__init__.py" />
-        <option value="$PROJECT_DIR$/App/apis/admin/admin_user_api.py" />
-        <option value="$PROJECT_DIR$/App/apis/admin/model_utils.py" />
-        <option value="$PROJECT_DIR$/App/apis/movie_user/movie_order_api.py" />
-        <option value="$PROJECT_DIR$/App/apis/common/movie_api.py" />
         <option value="$PROJECT_DIR$/App/apis/common/city_api.py" />
-        <option value="$PROJECT_DIR$/App/apis/movie_user/movie_user_api.py" />
-        <option value="$PROJECT_DIR$/App/apis/movie_user/__init__.py" />
         <option value="$PROJECT_DIR$/App/apis/common/__init__.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/doc/code/data/InsertCities.py" />
+        <option value="$PROJECT_DIR$/App/utils.py" />
+        <option value="$PROJECT_DIR$/App/settings.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/model_utils.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema_admin/cinema_address_model.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/permissions_constant.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/cinema_auth_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/admin/__init__.py" />
+        <option value="$PROJECT_DIR$/App/apis/admin/cinema_auth_api.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema_admin/cinema_movie_model.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema_admin/cinema_movie_api.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema_admin/cinema_hall_movie_model.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/cinema_movie_hall.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/__init__.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema_hall_model.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema_admin/cinema_hall_model.py" />
+        <option value="$PROJECT_DIR$/App/apis/movie_user/__init__.py" />
+        <option value="$PROJECT_DIR$/App/apis/movie_user/movie_hall_api.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema_admin/cinema_user_model.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema_admin/permissions_constant.py" />
+        <option value="$PROJECT_DIR$/App/models/movie_user/movie_user_model.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/cinema_movie_hall_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/cinema_user_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/utils.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/cinema_address_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/cinema_hall_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema_admin/cinema_movie_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/admin/model_utils.py" />
+        <option value="$PROJECT_DIR$/App/apis/admin/admin_user_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/common/movie_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/movie_user/movie_user_api.py" />
+        <option value="$PROJECT_DIR$/App/models/movie_user/movie_order_model.py" />
+        <option value="$PROJECT_DIR$/App/apis/movie_user/movie_order_api.py" />
       </list>
     </option>
   </component>
@@ -254,16 +295,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="61" />
-    <option name="y" value="-2" />
-    <option name="width" value="1060" />
-    <option name="height" value="875" />
+    <option name="x" value="338" />
+    <option name="y" value="-6" />
+    <option name="width" value="1018" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,33 +322,59 @@
               <item name="FlaskTpp" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlaskTpp" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskTpp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskTpp" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+              <item name="movie_user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskTpp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskTpp" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskTpp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskTpp" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="movie_user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskTpp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskTpp" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SearchEverywhereHistoryKey" value="common_api&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="filter&#9;null&#9;null&#10;cinema_hall_mod&#9;FILE&#9;file:///home/sunck/workspace/Flask/FlaskTpp/App/models/cinema_hall_model.py&#10;common_api&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/doc/code/data/json" />
-      <recent name="$PROJECT_DIR$/App/models" />
-      <recent name="$PROJECT_DIR$/App" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/App/apis/admin" />
+      <recent name="$PROJECT_DIR$/App/apis/cinema_admin" />
+      <recent name="$PROJECT_DIR$/App" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/models/cinema_admin" />
+      <recent name="$PROJECT_DIR$/doc/code/data/json" />
+      <recent name="$PROJECT_DIR$/App/models" />
       <recent name="$PROJECT_DIR$/App" />
     </key>
   </component>
@@ -384,15 +452,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="-2" width="1856" height="892" extended-state="6" />
+    <frame x="62" y="-6" width="1854" height="895" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14118303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19866072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16643357" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16643357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,14 +469,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3062937" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32587412" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32867134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.23939732" />
+      <window_info anchor="right" id="Database" order="4" weight="0.24107143" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,340 +486,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c03e831b-837e-4884-ad92-7daa37bcc47d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/movie_admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://c03e831b-837e-4884-ad92-7daa37bcc47d/schema/GP1FlaskTpp/table/movie_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/GP/lib/python3.6/site-packages/flask_restful/fields.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4178">
-          <caret line="176" column="53" lean-forward="true" selection-start-line="176" selection-start-column="53" selection-end-line="176" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/ext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#40#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/movie_user/model_constant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/GP/lib/python3.6/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/GP/lib/python3.6/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="183" column="8" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/code/data/json/cities.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="2443" column="15" selection-start-line="2443" selection-start-column="9" selection-end-line="2443" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/movie_user/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/model_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <marker date="1540212124690" expanded="true" signature="144:148" ph="..." />
-            <marker date="1540212124690" expanded="true" signature="144:161" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="13" column="5" selection-start-line="13" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1540288018660" expanded="true" signature="165:568" ph="..." />
-            <marker date="1540288018660" expanded="true" signature="637:638" ph="..." />
-            <marker date="1540288018660" expanded="true" signature="759:764" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/api_contant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="14" selection-start-line="1" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/admin/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2202">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/common/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1540296698842" expanded="true" signature="222:223" ph="..." />
-            <marker date="1540296698842" expanded="true" signature="222:224" ph="..." />
-            <marker date="1540296698842" expanded="true" signature="222:228" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/movie_user/movie_user_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-            <marker date="1540263923063" expanded="true" signature="269:270" ph="..." />
-            <marker date="1540263923063" expanded="true" signature="269:275" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/admin/admin_user_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/common/movie_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#10#92#0" expanded="true" />
-            <marker date="1540299597771" expanded="true" signature="1821:1865" ph="..." />
-            <marker date="1540299597771" expanded="true" signature="3443:3444" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/admin/admin_user_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1986">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/movie_user_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="68" column="68" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1540299806013" expanded="true" signature="1273:1274" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/common/city_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <marker date="1540299805989" expanded="true" signature="470:471" ph="..." />
-            <marker date="1540299805989" expanded="true" signature="470:476" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <marker date="1540285788381" expanded="true" signature="127:132" ph="..." />
-            <marker date="1540285788381" expanded="true" signature="217:222" ph="..." />
-            <marker date="1540285788381" expanded="true" signature="297:302" ph="..." />
-            <marker date="1540285788381" expanded="true" signature="378:383" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/admin/model_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/movie_admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/common/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/movie_order_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1540299165687" expanded="true" signature="339:340" ph="..." />
-            <marker date="1540299165687" expanded="true" signature="339:365" ph="..." />
-            <marker date="1540299165687" expanded="true" signature="482:483" ph="..." />
-            <marker date="1540299165687" expanded="true" signature="482:488" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/common/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/common/movie_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1540286488632" expanded="true" signature="82:87" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/code/data/InsertCities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1540300778617" expanded="true" signature="56:61" ph="..." />
-            <marker date="1540300778617" expanded="true" signature="287:1433" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://c03e831b-837e-4884-ad92-7daa37bcc47d/schema/GP1FlaskTpp/table/city">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -770,22 +504,480 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/admin/admin_user_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1540275897844" expanded="true" signature="81:133" ph="..." />
-            <marker date="1540275897844" expanded="true" signature="155:156" ph="..." />
-            <marker date="1540275897844" expanded="true" signature="155:161" ph="..." />
+            <element signature="e#0#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/ext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#40#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/api_contant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="14" selection-start-line="1" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="144">
-            <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <first_editor relative-caret-position="168">
+            <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema_admin/cinema_auth_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema_admin/cinema_movie_api.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema_admin/cinema_hall_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <marker date="1540366799430" expanded="true" signature="151:152" ph="..." />
+            <marker date="1540366799430" expanded="true" signature="151:157" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2587">
+          <caret line="1359" column="6" selection-start-line="1359" selection-start-column="6" selection-end-line="1359" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema_admin/cinema_address_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1540346652475" expanded="true" signature="154:155" ph="..." />
+            <marker date="1540346652475" expanded="true" signature="154:160" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema_admin/cinema_user_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <marker date="1540379189338" expanded="true" signature="1132:1137" ph="..." />
+            <marker date="1540379189338" expanded="true" signature="1224:1229" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/c03e831b-837e-4884-ad92-7daa37bcc47d.SCHEMA:GP1FlaskTpp">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c03e831b-837e-4884-ad92-7daa37bcc47d.SCHEMA:GP1FlaskTpp</OriginalElement>
+          <nodes>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.letter</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.cinema_user_permission</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.alembic_version</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.admin_user</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.cinema_user</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.cinema_address</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.permissions</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.cinema_movie</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.city</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.hall</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.hall_movie</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.movies</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.movie_order</node>
+            <node x="" y="">c03e831b-837e-4884-ad92-7daa37bcc47d.TABLE:GP1FlaskTpp.movie_user</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5" x="872.8611111111095" y="1515.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c03e831b-837e-4884-ad92-7daa37bcc47d/schema/GP1FlaskTpp/table/movie_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c03e831b-837e-4884-ad92-7daa37bcc47d/schema/GP1FlaskTpp/table/cinema_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema_admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema_admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="78" lean-forward="true" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/tracemalloc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="316" column="6" selection-start-line="316" selection-start-column="6" selection-end-line="316" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/GP/lib/python3.6/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema_admin/cinema_movie_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1540350949994" expanded="true" signature="200:201" ph="..." />
+            <marker date="1540350949994" expanded="true" signature="200:206" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/movie_user/movie_user_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <marker date="1540386198246" expanded="true" signature="269:270" ph="..." />
+            <marker date="1540386198246" expanded="true" signature="269:275" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1540296698842" expanded="true" signature="222:223" ph="..." />
+            <marker date="1540296698842" expanded="true" signature="222:224" ph="..." />
+            <marker date="1540296698842" expanded="true" signature="222:228" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1540301848873" expanded="true" signature="152:157" ph="..." />
+            <marker date="1540301848873" expanded="true" signature="242:247" ph="..." />
+            <marker date="1540301848873" expanded="true" signature="322:327" ph="..." />
+            <marker date="1540301848873" expanded="true" signature="403:408" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/admin/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema_admin/permissions_constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema_admin/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema_admin/cinema_address_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+            <marker date="1540386335904" expanded="true" signature="1318:1319" ph="..." />
+            <marker date="1540386335904" expanded="true" signature="1338:1387" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema_admin/cinema_hall_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#9#28#0" expanded="true" />
+            <marker date="1540386335892" expanded="true" signature="717:718" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema_admin/cinema_movie_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#11#30#0" expanded="true" />
+            <marker date="1540386335908" expanded="true" signature="963:964" ph="..." />
+            <marker date="1540386335908" expanded="true" signature="963:1007" ph="..." />
+            <marker date="1540386335908" expanded="true" signature="1021:1454" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema_admin/cinema_movie_hall_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="e#5#24#0" expanded="true" />
+            <marker date="1540386198230" expanded="true" signature="844:845" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema_admin/cinema_user_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema_admin/model_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/admin/cinema_auth_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="77" column="61" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/admin/model_utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/admin/admin_user_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <folding>
+            <element signature="e#1#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/common/city_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/common/movie_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-699">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#10#92#0" expanded="true" />
+            <marker date="1540386621541" expanded="true" signature="1840:1884" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/model_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <marker date="1540212124690" expanded="true" signature="144:148" ph="..." />
+            <marker date="1540212124690" expanded="true" signature="144:161" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/movie_user_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="59" selection-start-column="59" selection-end-column="59" />
+          <folding>
+            <marker date="1540387573077" expanded="true" signature="1246:1247" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/movie_user/movie_order_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1540389806689" expanded="true" signature="316:321" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/movie_order_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="e#5#20#0" expanded="true" />
+            <marker date="1540389806673" expanded="true" signature="680:681" ph="..." />
+            <marker date="1540389806673" expanded="true" signature="680:706" ph="..." />
+            <marker date="1540389806673" expanded="true" signature="1426:1427" ph="..." />
+            <marker date="1540389806673" expanded="true" signature="1426:1432" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema_admin/cinema_hall_movie_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1540366799402" expanded="true" signature="192:193" ph="..." />
+            <marker date="1540366799402" expanded="true" signature="192:198" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/movie_user/movie_hall_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+            <marker date="1540370381153" expanded="true" signature="822:823" ph="..." />
+            <marker date="1540370381153" expanded="true" signature="1747:2044" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

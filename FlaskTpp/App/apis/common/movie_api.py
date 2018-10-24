@@ -43,6 +43,8 @@ multi_movies_fields = {
 
 
 class MoviesResource(Resource):
+
+    # 获取所有淘票票注册电影
     @marshal_with(multi_movies_fields)
     def get(self):
 
@@ -56,6 +58,7 @@ class MoviesResource(Resource):
 
         return data
 
+    # 添加电影
     @login_required
     def post(self):
 
@@ -105,9 +108,21 @@ class MoviesResource(Resource):
 
 class MovieResource(Resource):
 
+    #获取所有电影
     def get(self, id):
 
-        return {"msg": "get ok"}
+        movie = Movie.query.all()
+
+        if not movie:
+            abort(404, msg="movie is not exist")
+
+        data = {
+                "msg": "ok",
+                "status": HTTP_OK,
+                "data": marshal(movie, movie_fields),
+        }
+
+        return data
 
     @login_required
     def put(self, id):
