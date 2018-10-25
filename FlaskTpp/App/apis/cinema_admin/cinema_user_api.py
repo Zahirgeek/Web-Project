@@ -94,7 +94,7 @@ class CinemaUsersResource(Resource):
             # 给用户发送token,并存到缓存中
             token = generate_movie_user_token()
 
-            cache.set(token, user.id, timeout=60*60*24*7)
+            cache.set(token, user.id, timeout=60 * 60 * 24 * 7)
 
             data = {
                 "msg": "login success",

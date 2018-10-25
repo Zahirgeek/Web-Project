@@ -1,4 +1,4 @@
-# 下单
+# 订单
 from App.ext import db
 from App.models import BaseModel
 from App.models.cinema_admin.cinema_hall_movie_model import HallMovie
